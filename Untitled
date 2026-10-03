@@ -1,0 +1,355 @@
+REDEFINED VOUCHERS IN TALLY
+
+Tally Prime has many predefined voucher types.
+
+Among them, some are common vouchers that are used frequently in different types of businesses.
+
+COMMON VOUCHERS
+
+1. Contra
+2. Payment
+3. Receipt
+4. Journal
+5. Purchase
+6. Sales
+7. Debit Note
+8. Credit Note
+
+
+SPECIAL VOUCHERS
+
+1. Stock Journal
+2. Memorandum
+3. Purchase Order
+4. Sales Order
+5. Delivery Note
+6. Reversing Journal
+7. Receipt Note
+8. Physical Stock
+9. Payroll
+10. Attendance
+11. Job Work In Order
+12. Job Work Out Order
+13. Material In
+14. Material Out
+15. Rejections In
+16. Rejections Out
+
+
+PREDEFINED VOUCHERS IN TALLY – DETAILED EXPLANATION
+
+
+1. CONTRA VOUCHER
+
+When we transfer money between Cash and Bank, we use the Contra Voucher.
+
+Examples:
+- Cash deposited into Bank
+- Cash withdrawn from Bank
+- Transfer between Bank Accounts
+- Transfer between Cash and Bank
+
+Example:
+
+Cash deposited into Bank = ₹10,000
+
+Debit: Bank A/c
+Credit: Cash A/c
+
+This entry is recorded using a Contra Voucher.
+
+
+2. PAYMENT VOUCHER
+
+When we make any type of payment, whether by Cash or Cheque, we record the transaction using a Payment Voucher.
+
+Examples:
+- Rent paid in cash
+- Salary paid by cheque
+- Electricity bill paid
+- Payment made to a supplier
+
+Example:
+
+Rent paid by Cash = ₹5,000
+
+Debit: Rent A/c
+Credit: Cash A/c
+
+Voucher: Payment Voucher
+
+
+3. RECEIPT VOUCHER
+
+When we receive money through Cash or Cheque, we record the transaction using a Receipt Voucher.
+
+Examples:
+- Cash received from a customer
+- Cheque received from a customer
+- Interest received
+- Commission received
+
+Example:
+
+Cash received from Rahul = ₹10,000
+
+Debit: Cash A/c
+Credit: Rahul A/c
+
+Voucher: Receipt Voucher
+
+
+4. JOURNAL VOUCHER
+
+Journal Voucher is used for various types of accounting entries that are not normally recorded through Cash or Bank transactions.
+
+Examples:
+- Adjustment Entries
+- Provisions
+- Depreciation
+- Credit transactions in certain cases
+- Other accounting adjustments
+
+Journal Voucher is commonly used for entries where there is no immediate Cash or Bank movement.
+
+Example:
+
+Depreciation on Machinery = ₹5,000
+
+Debit: Depreciation A/c
+Credit: Machinery A/c
+
+Voucher: Journal Voucher
+
+
+5. PURCHASE VOUCHER
+
+When a business purchases goods for resale or for business purposes, the transaction is recorded using a Purchase Voucher.
+
+Example:
+
+Goods purchased for ₹20,000
+
+Debit: Purchase A/c
+Credit: Supplier A/c
+
+Voucher: Purchase Voucher
+
+
+6. SALES VOUCHER
+
+When a business sells goods or services, the transaction is recorded using a Sales Voucher.
+
+Example:
+
+Goods sold for ₹30,000
+
+Debit: Customer A/c
+Credit: Sales A/c
+
+Voucher: Sales Voucher
+
+
+7. DEBIT NOTE
+
+A Debit Note is generally used when goods purchased from a supplier are returned.
+
+This is called a Purchase Return.
+
+Example:
+
+Goods worth ₹5,000 returned to the supplier.
+
+Debit Note is used to record the Purchase Return.
+
+Example entry:
+
+Debit: Supplier A/c
+Credit: Purchase Return A/c
+
+
+8. CREDIT NOTE
+
+A Credit Note is generally used when goods sold to a customer are returned by the customer.
+
+This is called a Sales Return.
+
+Example:
+
+Customer returns goods worth ₹3,000.
+
+Credit Note is used to record the Sales Return.
+
+Example entry:
+
+Debit: Sales Return A/c
+Credit: Customer A/c
+
+
+9. STOCK JOURNAL
+
+When goods or stock are transferred from one Godown to another Godown, we use the Stock Journal Voucher.
+
+Example:
+
+Goods transferred:
+
+Godown A → Godown B
+
+Stock Journal is used to record this transfer.
+
+There is no sale or purchase involved; only the location of the stock changes.
+
+
+10. MEMORANDUM VOUCHER
+
+If we want to record an entry temporarily for future reference or remember a transaction without affecting the regular accounting books immediately, we can use a Memorandum Voucher.
+
+A Memorandum Voucher is generally used for temporary or informational entries.
+
+It does not immediately affect the regular accounting records in the same way as a normal accounting voucher.
+
+
+11. PURCHASE ORDER
+
+When a business wants to purchase goods from a supplier, it can send a list of required items and quantities to the supplier.
+
+This is recorded using a Purchase Order.
+
+Example:
+
+Purchase Order:
+
+- 100 units of Item A
+- 50 units of Item B
+- 20 units of Item C
+
+The Purchase Order can also be printed and sent to the supplier.
+
+Important:
+
+A Purchase Order is an order to purchase. It is not the actual purchase transaction.
+
+
+12. SALES ORDER
+
+When a customer places an order to purchase goods from our business, we record that order using a Sales Order.
+
+Example:
+
+Customer orders:
+
+- 100 units of Item A
+- 50 units of Item B
+
+The order is recorded using a Sales Order.
+
+Important:
+
+A Sales Order is an order received from the customer. It is not the actual sales transaction.
+
+
+13. DELIVERY NOTE
+
+After receiving a Sales Order, when the goods are delivered to the customer, we can use a Delivery Note.
+
+Flow:
+
+Customer places order
+        ↓
+Sales Order
+        ↓
+Goods are delivered
+        ↓
+Delivery Note
+
+
+14. REVERSING JOURNAL
+
+A Reversing Journal is used for certain temporary accounting entries where we want the effect of the entry to remain only for a particular date or period.
+
+The entry is automatically reversed after the specified period/date.
+
+It is useful for temporary adjustments and accounting purposes.
+
+
+15. RECEIPT NOTE
+
+After placing a Purchase Order with a supplier, when the supplier delivers the goods to us, we can record the receipt of those goods using a Receipt Note.
+
+Flow:
+
+Purchase Order
+        ↓
+Supplier sends goods
+        ↓
+Receipt Note
+        ↓
+Goods received
+
+
+16. PHYSICAL STOCK
+
+Physical Stock Voucher is used when we physically count the stock available in the Godown and compare it with the stock shown in Tally.
+
+Example:
+
+Tally Stock = 100 units
+Physical Stock = 95 units
+
+The Physical Stock Voucher can be used to record the actual physical quantity.
+
+This helps identify differences between:
+
+Book Stock
+and
+Physical Stock
+
+
+17. PAYROLL
+
+The Payroll Voucher is used for recording payroll-related transactions in Tally.
+
+It can be used for employee salary and payroll processing.
+
+Examples:
+- Salary
+- Employee earnings
+- Deductions
+- Other payroll-related calculations
+
+
+18. ATTENDANCE
+
+The Attendance Voucher is used to record employee attendance information for payroll purposes.
+
+Examples:
+- Present
+- Absent
+- Paid Leave
+- Unpaid Leave
+- Overtime
+
+Attendance information can then be used in payroll calculations.
+
+
+QUICK SUMMARY
+
+1. Contra → Cash ↔ Bank transfers
+2. Payment → Money paid
+3. Receipt → Money received
+4. Journal → Adjustments and accounting entries
+5. Purchase → Goods/services purchased
+6. Sales → Goods/services sold
+7. Debit Note → Purchase Return
+8. Credit Note → Sales Return
+9. Stock Journal → Stock transfer between Godowns
+10. Memorandum → Temporary/informational entry
+11. Purchase Order → Order placed with supplier
+12. Sales Order → Order received from customer
+13. Delivery Note → Goods delivered to customer
+14. Reversing Journal → Temporary entry that gets reversed
+15. Receipt Note → Goods received from supplier
+16. Physical Stock → Physical stock verification
+17. Payroll → Employee salary/payroll
+18. Attendance → Employee attendance
