@@ -141,15 +141,29 @@ Nominal. An expense or loss is debit. Income or a gain is credit.
 Give every line its own amount in rupees. When several assets are bought together, each keeps its own amount and the paying account is the total.
 Use the amount written in the statement. Debit amounts must equal credit amounts.`;
 
-const LEDGER_PROMPT = `You map every party and item in the statement to one ledger and one account group.
-Return a mapping for every account that needs a book entry, including ledgers that already exist.
-For each mapping, set ledgerConfidence and groupConfidence from 0 to 100.
+const LEDGER_PROMPT = `You map each party and item in the statement to one ledger and one account group.
+Return one mapping for every account that needs a book entry.
+Set ledgerConfidence and groupConfidence from 0 to 100.
 
-Do not return a ledger named in the system ledger list.
-The query includes the account groups that exist. Use one of those names exactly. Do not invent a group.
-Prefer a group that has a parent when that group fits. Use a group with no parent only when no child group fits.
-The query may include saved rules. For a ruled name, copy the ledger and group exactly. Do not invent a second ledger for that name.
-If a ledger already exists, reuse that name instead of creating another spelling of it.`;
+Groups come from the query. Use one of those names exactly. Do not invent a group.
+Prefer a child group when it fits. Use a parent group only when no child fits.
+
+Typical choices:
+Customer who owes us → Sundry Debtors
+Supplier we owe → Sundry Creditors
+Cash → Cash-in-Hand
+Bank → Bank Accounts
+Stock for resale → Stock-in-Hand
+Asset for use → Fixed Assets
+Rent, salary, and similar costs → Indirect Expenses
+Sale of goods or services → Sales Account
+Purchase of goods for resale → Purchase Account
+Owner's capital → Capital Account
+
+If a saved rule matches a name, copy that ledger and group exactly.
+If a ledger already exists, reuse that exact name. Do not invent another spelling.
+Do not return a system ledger.
+Do not create a ledger for the business name.`;
 
 const VOUCHER_PROMPT = `You pick the one voucher for the statement.
 Set confidence from 0 to 100 for how sure you are about the voucher.
